@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::-webkit-scrollbar{
+    margin: 0;
+    width: 7px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: rgb(219, 39, 119);
+    border-radius: 10px;
+}
+::-webkit-scrollbar-track{
+    background-color: black;
+}
+
+.stock-heading{
+    font-family: "Playfair Display";
+    -webkit-text-stroke: 1px rgb(219, 39, 119);
+    font-weight: bolder;
+    color: transparent;
+    margin: 0;
+}
