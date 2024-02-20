@@ -80,9 +80,9 @@ const App = () => {
   return (
     <>
       <section className='relative overflow-hidden bg-black'>
-        <nav className='fixed top-0 left-0 w-full z-40 py-4 px-5'>
+        <nav className='absolute w-full z-40 py-4 px-5'>
           <div className='relative flex flex-wrap items-center justify-between'>
-            <a href="#" className='max-w-28 text-[rgba(0,0,0,0.9)] inline-block py-[.3125rem] mr-4 text-lg '>
+            <a href="#" className='max-w-32 md:max-w-40 text-[rgba(0,0,0,0.9)] inline-block py-[.3125rem] mr-4 text-lg '>
               <img src="/Res/Logo.png" alt="" />
             </a>
             <div className='flex gap-x-3 items-center justify-between'>
@@ -159,7 +159,6 @@ const App = () => {
               <SwiperSlide className='w-full h-full'><img className='w-full h-full object-cover' src="/Res/BCBFDEC0-8F6B-433F-BBD3-A05E200210F1.webp" alt="" /></SwiperSlide>
               <SwiperSlide className='w-full h-full'><img className='w-full h-full object-cover' src="/Res/1708259140142.webp" alt="" /></SwiperSlide>
               <SwiperSlide className='w-full h-full'><img className='w-full h-full object-cover' src="/Res/1708259199357.webp" alt="" /></SwiperSlide>
-              <SwiperSlide className='w-full h-full'><img className='w-full h-full object-cover' src="/Res/1708259260936.webp" alt="" /></SwiperSlide>
               <SwiperSlide className='w-full h-full'><img className='w-full h-full object-cover' src="/Res/1708259312324.webp" alt="" /></SwiperSlide>
               <SwiperSlide className='w-full h-full'><img className='w-full h-full object-cover' src="/Res/1708259367867.webp" alt="" /></SwiperSlide>
             </Swiper>
@@ -173,48 +172,48 @@ const App = () => {
 
         <section className='flex flex-col justify-center items-center py-10 gap-y-10 px-4'>
           <div className="container relative z-10">
-            <div className='w-full lg:w-fit'>
-              <h2 className='stock-heading sm:text-[4rem] text-[2.75rem] lg:text-left text-center w-full lg:w-fit absolute -z-10 sm:-top-[2.5rem] -top-[1.75rem] sm:-left-[2.5rem]'>Baylen de louis</h2>
+            <div className='w-full lg:w-fit md:pl-5 pl-0'>
+              <h2 className='stock-heading sm:text-[4rem] text-[2.75rem] lg:text-left text-center w-full lg:w-fit absolute -z-10 sm:-top-[2.5rem] -top-[1.75rem] sm:-left-[.5rem]'>Baylen de louis</h2>
               <h2 className='text-[2.75rem] sm:text-[4rem] lg:text-left text-center text-white font-bold'>Celebrity Salon</h2>
               <p className='text-center max-w-[450px] mx-auto text-pink-600'>Baylen de Louis offers a wide array of services, including haircuts, styling, coloring, manicures, pedicures, and facials, clients are pampered and rejuvenated. Their expert stylists use premium products to ensure every customer leaves feeling confident and refreshed.</p>
             </div>
             <div className='flex justify-center items-center mt-20 relative flex-wrap'>
               <div className='px-6 py-6 w-full md:w-1/2 lg:w-1/3'>
-                <div className='w-full h-[550px]'>
+                <div className='w-full h-[400px] lg:h-[500px]'>
                   <video muted src='/Res/MAKEUP_SERVICES.mp4' className='w-full h-full object-cover object-center' autoPlay={true} loop='loop' />
                 </div>
                 <div className='px-6'>
                   <div className='border border-pink-600 border-t-0 px-3 pb-4 pt-2 flex flex-col gap-y-5'>
-                    <h3 className='text-pink-600 text-2xl font-medium'>
+                    <h3 className='text-white text-2xl font-medium from-black'>
                       MAKEUP SERVICES</h3>
-                    <p className='text-pink-600'>Indulge in top-tier makeup services provided by our world-class makeup artists for a refined and polished look.</p>
-                    <a className='text-pink-600 font-bold text-lg' href="#">Explore Now</a>
+                    <p className='text-white'>Indulge in top-tier makeup services provided by our world-class makeup artists for a refined and polished look.</p>
+                    <a className='text-white bg-pink-600 px-4 py-2 hover:bg-white hover:text-pink-600 transition-all duration-300 w-fit font-semibold text-lg' href="#">Explore Now</a>
                   </div>
                 </div>
               </div>
               <div className='px-6 py-6 w-full md:w-1/2 lg:w-1/3 relative lg:-top-16'>
-                <div className='w-full h-[550px]'>
+                <div className='w-full h-[400px] lg:h-[500px]'>
                   <video muted src='/Res/MAKEOVER_SESSIONS.mp4' className='w-full h-full object-cover object-center' autoPlay={true} loop='loop' />
                 </div>
                 <div className='px-6'>
                   <div className='border border-pink-600 border-t-0 px-3 pb-4 pt-2 flex flex-col gap-y-5'>
-                    <h3 className='text-pink-600 text-2xl font-medium'>
+                    <h3 className='text-white text-2xl font-medium'>
                       MAKEOVER SESSIONS</h3>
-                    <p className='text-pink-600'>Experience a remarkable change as our transformation specialists guide you through our exclusive makeover sessions.</p>
-                    <a className='text-pink-600 font-bold text-lg' href="#">Explore Now</a>
+                    <p className='text-white'>Experience a remarkable change as our transformation specialists guide you through our exclusive makeover sessions.</p>
+                    <a className='text-white bg-pink-600 px-4 py-2 hover:bg-white hover:text-pink-600 transition-all duration-300 w-fit font-semibold text-lg' href="#">Explore Now</a>
                   </div>
                 </div>
               </div>
               <div className='px-6 py-6 w-full md:w-1/2 lg:w-1/3 '>
-                <div className='w-full h-[550px]'>
+                <div className='w-full h-[400px] lg:h-[500px]'>
                   <video muted src='/Res/HAIRDRESSING_AND_STYLING.mp4' className='w-full h-full object-cover object-center' autoPlay={true} loop='loop' />
                 </div>
                 <div className='px-6'>
                   <div className='border border-pink-600 border-t-0 px-3 pb-4 pt-2 flex flex-col gap-y-5'>
-                    <h3 className='text-pink-600 text-2xl font-medium'>
+                    <h3 className='text-white text-2xl font-medium'>
                       HAIRDRESSING AND STYLING</h3>
-                    <p className='text-pink-600'>Let our skilled team of hairstyling magicians work their magic on your locks, delivering enchanting hair transformations using indulgent treatments.</p>
-                    <a className='text-pink-600 font-bold text-lg' href="#">Explore Now</a>
+                    <p className='text-white'>Let our skilled team of hairstyling magicians work their magic on your locks, delivering enchanting hair transformations using indulgent treatments.</p>
+                    <a className='text-white bg-pink-600 px-4 py-2 hover:bg-white hover:text-pink-600 transition-all duration-300 w-fit font-semibold text-lg' href="#">Explore Now</a>
                   </div>
                 </div>
               </div>
@@ -227,15 +226,15 @@ const App = () => {
           <video muted src='/Res/Footer.mp4' className='w-full h-full object-cover object-center absolute top-0 left-0 -z-10' autoPlay={true} loop='loop' />
           <div className='absolute top-0 left-0 w-full h-full bg-[rgba(0,0,0,.6)] -z-[9]'></div>
           <div className='absolute -bottom-[4rem] md:left-[4rem]'>
-            <p className='max-w-[600px] text-[2rem] md:text-[3rem] lg:text-[5rem] text-white font-black text-center lg:leading-[5rem] md:leading-[3rem] leading-[2rem] w-full'>LEAVES <br />
-              A LASTING <br />
+            <p className='max-w-[600px] text-[2rem] md:text-[3rem] lg:text-[5rem] text-white font-black text-center lg:leading-[5rem] md:leading-[3rem] leading-[2rem] w-full '>Leaves <br />
+              A Lasting <br />
               IMPRESSION
             </p>
-            <h2 className='text-[2rem] md:text-[3rem] lg:text-[7rem] text-pink-600 text-center font-bold lg:leading-[1] md:leading-[1.2] leading-[1.5]'>Baylen</h2>
+            <h2 className='text-[2rem] md:text-[3rem] lg:text-[7rem] text-pink-600 text-center font-bold lg:leading-[1] md:leading-[1.2] font-playfair leading-[1.5]'>Baylen</h2>
           </div>
         </section>
 
-        <section className='flex justify-center items-center py-20 gap-y-10 px-4'>
+        <section className='flex justify-center items-center pt-20 pb-10 gap-y-10 px-4'>
           <div className='w-full mt-10 flex md:flex-row flex-col justify-between max-w-[1500px] gap-x-5 gap-y-5'>
             <div className=' w-full md:w-1/2 order-2 md:order-1'>
               <p className='text-sm text-pink-600 font-semibold tracking-wider'>SUBSCRIBE TO OUR NEWSLETTER</p>
@@ -252,7 +251,7 @@ const App = () => {
                   <a className='text-white hover:text-pink-600 transition-all duration-300 font-medium uppercase' href="#">terms & conditions</a>
                 </div>
                 <div className='flex  items-center gap-x-5'>
-                  <p className='uppercase text-pink-600 flex font-semibold'>Salon/Academy/Franchise - <span className='mx-2 text-white'><i className="fa-solid fa-phone"></i></span><span className='text-white'>8877001122/</span>23/30</p>
+                  <p className='uppercase text-pink-600 flex font-semibold'>Salon<span className='text-white'>/</span>Academy<span className='text-white'>/</span>Franchise - <span className='mx-2 text-white'><i className="fa-solid fa-phone"></i></span><span className='text-white'>88770011 </span>22<span className='text-white'>/</span>23<span className='text-white'>/</span>30</p>
                 </div>
                 <div className='flex  items-center gap-x-5'>
                   <a className='bg-white flex justify-center items-center text-xl text-pink-600 hover:text-white hover:bg-pink-600 transition-all duration-300 font-medium uppercase w-9 h-9 rounded-full' href="#"><i className="fa-brands fa-facebook"></i></a>
@@ -267,7 +266,7 @@ const App = () => {
               </div>
             </div>
             <div className='flex justify-center w-full md:w-1/2 order-1 md:order-2 xl:max-w-[700px] xl:w-full gap-x-6 xl:flex-row flex-col gap-y-5'>
-              <div className='w-full md:w-[40%]'>
+              <div className='w-full lg:w-[40%]'>
                 <h2 className='text-pink-600 text-2xl font-bold uppercase'>our location</h2>
                 <div className='mt-6 flex flex-col gap-y-5'>
                   <div className=''>
@@ -292,7 +291,7 @@ const App = () => {
                   )}
                 </div>
               </div>
-              <div className='border w-full h-full md:w-[60%]'>
+              <div className='border w-full h-full lg:w-[60%]'>
                 <iframe className='w-full h-full border-none outline-none' src={mapSrc} loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
               </div>
             </div>
