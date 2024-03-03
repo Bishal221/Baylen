@@ -21,3 +21,6 @@
     color: transparent;
     margin: 0;
 }
+h2{
+    background: -webkit-linear-gradient(#0000, #d80da200);
+}
