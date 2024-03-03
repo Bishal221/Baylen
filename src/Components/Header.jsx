@@ -64,7 +64,7 @@ const Header = () => {
         <div className="relative flex flex-wrap items-center justify-between">
           <a
             href="/"
-            className="max-w-32 md:max-w-40 text-[rgba(0,0,0,0.9)] inline-block py-[.3125rem] mr-4 text-lg "
+            className="max-w-28 md:max-w-40 text-[rgba(0,0,0,0.9)] inline-block py-[.3125rem] md:mr-4 text-lg "
           >
             <img src="/Res/Logo.png" alt="" />
           </a>
@@ -72,14 +72,14 @@ const Header = () => {
             <div>
               <a
                 href="#"
-                className="bg-pink-600 font-semibold uppercase text-white text-xs block tracking-[0.9px] px-4 pt-2 pb-2 rounded-2xl"
+                className="bg-pink-600 font-semibold uppercase text-white text-xs block tracking-[0.9px] px-3 sm:px-4 pt-2 pb-2 rounded-2xl"
               >
                 Book Appointment
               </a>
             </div>
             <button
               onClick={handleMenutoggle}
-              className="bg-pink-600 text-white px-3 py-1"
+              className="bg-pink-600 text-white px-2 sm:px-3 py-1"
             >
               <i className="fa-solid fa-bars"></i>
             </button>
