@@ -168,31 +168,36 @@ const Footer = () => {
               <div className="flex  items-center gap-x-5">
                 <a
                   className="bg-white flex justify-center items-center text-xl text-pink-600 hover:text-white hover:bg-pink-600 transition-all duration-300 font-medium uppercase w-9 h-9 rounded-full"
-                  href="#"
+                  href="https://www.facebook.com/share/84FzcK6w9aDpBbkA/?mibextid=qi2Omg"
+                  target="_blank"
                 >
                   <i className="fa-brands fa-facebook"></i>
                 </a>
                 <a
                   className="bg-white flex justify-center items-center text-xl text-pink-600 hover:text-white hover:bg-pink-600 transition-all duration-300 font-medium uppercase w-9 h-9 rounded-full"
-                  href="#"
+                  href="https://youtube.com/@baylendelouis?si=ftaMeV2qlxT4l7V5"
+                  target="_blank"
                 >
                   <i className="fa-brands fa-youtube"></i>
                 </a>
                 <a
                   className="bg-white flex justify-center items-center text-xl text-pink-600 hover:text-white hover:bg-pink-600 transition-all duration-300 font-medium uppercase w-9 h-9 rounded-full"
-                  href="#"
+                  href="https://www.instagram.com/baylen_de_louis?igsh=M3ZsYWtyOHN6MDFx"
+                  target="_blank"
                 >
                   <i className="fa-brands fa-instagram"></i>
                 </a>
                 <a
                   className="bg-white flex justify-center items-center text-xl text-pink-600 hover:text-white hover:bg-pink-600 transition-all duration-300 font-medium uppercase w-9 h-9 rounded-full"
-                  href="#"
+                  href="https://www.linkedin.com/company/baylen-d%C3%A8-louis/"
+                  target="_blank"
                 >
                   <i className="fa-brands fa-linkedin-in"></i>
                 </a>
                 <a
                   className="bg-white flex justify-center items-center text-xl text-pink-600 hover:text-white hover:bg-pink-600 transition-all duration-300 font-medium uppercase w-9 h-9 rounded-full"
-                  href="#"
+                  href="https://x.com/baylendelouis?t=7Wv9JWmXk58j-ElNyVxing&s=09"
+                  target="_blank"
                 >
                   <i className="fa-brands fa-x-twitter"></i>
                 </a>

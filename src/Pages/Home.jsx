@@ -125,7 +125,7 @@ const Home = () => {
         <h2 className="text-5xl lg:text-7xl font-semibold text-pink-600">
           Gallery
         </h2>
-        <div className="max-w-[1200px] max-h-[700px] h-full w-full overflow-hidden">
+        <div className="max-w-[1200px] max-h-[700px] h-full w-full overflow-hidden hover:before:border-pink-600 before:transition-all before:duration-300 z-10 relative before:absolute before:w-[97.5%] before:h-[90%] before:border-4 before:bg-transparent before:animate-updown before:left-4 before:border-white before:z-20">
           <Swiper
             className="mySwiper max-h-[650px] h-full"
             slidesPerView={1}
@@ -214,7 +214,7 @@ const Home = () => {
             </p>
           </div>
           <div className="flex justify-center items-center mt-20 relative flex-wrap">
-            <div className="px-6 py-6 w-full md:w-1/2 lg:w-1/3">
+            <div className="px-6 py-6 w-full md:w-1/2 lg:w-1/3 animate-bounce_slow_reserse">
               <div className="w-full h-[400px] lg:h-[500px]">
                 <video
                   muted
@@ -242,7 +242,7 @@ const Home = () => {
                 </div>
               </div>
             </div>
-            <div className="px-6 py-6 w-full md:w-1/2 lg:w-1/3 relative lg:-top-16">
+            <div className="px-6 py-6 w-full md:w-1/2 lg:w-1/3 relative lg:-top-16 animate-bounce_slow">
               <div className="w-full h-[400px] lg:h-[500px]">
                 <video
                   muted
@@ -271,7 +271,7 @@ const Home = () => {
                 </div>
               </div>
             </div>
-            <div className="px-6 py-6 w-full md:w-1/2 lg:w-1/3 ">
+            <div className="px-6 py-6 w-full md:w-1/2 lg:w-1/3 animate-bounce_slow_reserse">
               <div className="w-full h-[400px] lg:h-[500px]">
                 <video
                   muted

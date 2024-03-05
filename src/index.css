@@ -21,6 +21,13 @@
   color: transparent;
   margin: 0;
 }
+.stock-heading-white {
+  font-family: "Playfair Display";
+  -webkit-text-stroke: 1px white;
+  font-weight: bolder;
+  color: transparent;
+  margin: 0;
+}
 h2 {
   background: -webkit-linear-gradient(#0000, #d80da200);
 }
