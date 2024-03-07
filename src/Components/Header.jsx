@@ -137,7 +137,7 @@ const Header = () => {
             </a>
             <a
               className="block px-3 py-2 text-2xl hover:bg-[#171717] rounded-lg font-semibold"
-              href="#"
+              href="/franchise"
             >
               Franchise
             </a>
