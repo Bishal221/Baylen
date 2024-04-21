@@ -71,7 +71,7 @@ const Header = () => {
           <div className="flex gap-x-3 items-center justify-between">
             <div>
               <a
-                href="#"
+                href="/book-appointment"
                 className="bg-pink-600 font-semibold uppercase text-white text-xs block tracking-[0.9px] px-3 sm:px-4 pt-2 pb-2 rounded-2xl"
               >
                 Book Appointment
@@ -103,13 +103,19 @@ const Header = () => {
               className="block px-3 py-2 text-2xl hover:bg-[#171717] rounded-lg font-semibold"
               href="/"
             >
+              Visit our store
+            </a>
+            <a
+              className="block px-3 py-2 text-2xl hover:bg-[#171717] rounded-lg font-semibold"
+              href="/"
+            >
               Home
             </a>
             <a
               className="block px-3 py-2 text-2xl hover:bg-[#171717] rounded-lg font-semibold"
-              href="#"
+              href="/about-us"
             >
-              About Us
+              About us
             </a>
             <a
               className="block px-3 py-2 text-2xl hover:bg-[#171717] rounded-lg font-semibold"
@@ -119,21 +125,15 @@ const Header = () => {
             </a>
             <a
               className="block px-3 py-2 text-2xl hover:bg-[#171717] rounded-lg font-semibold"
-              href="#"
+              href="contact-us"
             >
-              Portfolio
+              Contact us
             </a>
             <a
               className="block px-3 py-2 text-2xl hover:bg-[#171717] rounded-lg font-semibold"
-              href="#"
+              href="book-appointment"
             >
-              Channels
-            </a>
-            <a
-              className="block px-3 py-2 text-2xl hover:bg-[#171717] rounded-lg font-semibold"
-              href="#"
-            >
-              Salon
+              Book appointment
             </a>
             <a
               className="block px-3 py-2 text-2xl hover:bg-[#171717] rounded-lg font-semibold"
