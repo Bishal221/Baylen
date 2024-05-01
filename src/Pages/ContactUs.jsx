@@ -255,6 +255,7 @@ const ContactUs = () => {
                     <select className="bg-transparent block w-full py-2 border px-2 my-2 text-lg">
                       <option
                         disabled
+                        selected
                         value=""
                         className="bg-transparent text-black px-4"
                       >
