@@ -137,7 +137,7 @@ const Footer = () => {
                   className="text-white hover:text-pink-600 transition-all duration-300 font-medium uppercase"
                   href="#"
                 >
-                  careers
+                  Refund & Cancellation
                 </a>
                 <a
                   className="text-white hover:text-pink-600 transition-all duration-300 font-medium uppercase"
