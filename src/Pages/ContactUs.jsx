@@ -197,25 +197,19 @@ const ContactUs = () => {
                         selected
                         className="bg-transparent text-black px-4"
                       >
-                        Investment Capacity
+                        Franchise Type
                       </option>
                       <option
                         value=""
                         className="bg-transparent text-black px-4"
                       >
-                        Lite - 40Lac
+                        Academy Franchise
                       </option>
                       <option
                         value=""
                         className="bg-transparent text-black px-4"
                       >
-                        Regular - 1Cr
-                      </option>
-                      <option
-                        value=""
-                        className="bg-transparent text-black px-4"
-                      >
-                        Luxary - 1.25Cr
+                        Salon Franchise
                       </option>
                     </select>
                     <select className="bg-transparent block w-full py-2 border px-2 my-2 text-lg">

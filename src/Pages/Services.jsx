@@ -87,7 +87,7 @@ const Services = () => {
                     <h2 className="stock-heading-white text-[2.75rem] 2xl:text-[4rem] md:text-left text-center w-full lg:w-fit absolute -z-10 top-1/2">
                         Celebrety Family Salon
                     </h2>
-                    <a href="#" className="text-white flex items-center justify-between max-w-[230px] pl-6 bg-[rgba(219,39,119,0.3)] border rounded-md text-xl border-pink-600 md:text-left text-center w-full absolute -z-10 top-[60%]">
+                    <a href="/book-appointment" className="text-white flex items-center justify-between max-w-[230px] pl-6 bg-[rgba(219,39,119,0.3)] border rounded-md text-xl border-pink-600 md:text-left text-center w-full absolute -z-10 top-[60%]">
                         <p>Book Now</p>
                         <span><i className="fa-solid fa-arrow-right-long py-4 px-6 bg-[rgba(219,39,119,0.4)] text-base"></i></span>
                     </a>
