@@ -100,43 +100,49 @@ const Header = () => {
           </button>
           <div className="text-pink-600 flex justify-center flex-col px-6 gap-y-3 font-playfair">
             <a
-              className="block px-3 py-2 text-2xl hover:bg-[#171717] rounded-lg font-semibold"
+              className="block px-3 py-2 text-2xl bg-pink-600 text-white rounded-lg font-semibold"
               href="/"
             >
               Visit our store
             </a>
             <a
-              className="block px-3 py-2 text-2xl hover:bg-[#171717] rounded-lg font-semibold"
+              className="block px-3 py-2 text-2xl bg-pink-600 text-white rounded-lg font-semibold"
+              href="/academy"
+            >
+              Academy
+            </a>
+            <a
+              className="block px-3 py-2 text-2xl bg-pink-600 text-white rounded-lg font-semibold"
               href="/"
             >
               Home
             </a>
             <a
-              className="block px-3 py-2 text-2xl hover:bg-[#171717] rounded-lg font-semibold"
+              className="block px-3 py-2 text-2xl bg-pink-600 text-white rounded-lg font-semibold"
               href="/about-us"
             >
               About us
             </a>
             <a
-              className="block px-3 py-2 text-2xl hover:bg-[#171717] rounded-lg font-semibold"
+              className="block px-3 py-2 text-2xl bg-pink-600 text-white rounded-lg font-semibold"
               href="/services"
             >
               Services
             </a>
             <a
-              className="block px-3 py-2 text-2xl hover:bg-[#171717] rounded-lg font-semibold"
+              className="block px-3 py-2 text-2xl bg-pink-600 text-white rounded-lg font-semibold"
               href="contact-us"
             >
               Contact us
             </a>
             <a
-              className="block px-3 py-2 text-2xl hover:bg-[#171717] rounded-lg font-semibold"
+              className="block px-3 py-2 text-2xl bg-pink-600 text-white rounded-lg font-semibold"
               href="book-appointment"
             >
               Book appointment
             </a>
             <a
-              className="block px-3 py-2 text-2xl hover:bg-[#171717] rounded-lg font-semibold"
+              className="block px-3 py-2 text-2xl bg-pink-600 text-white rounded-lg font-semibold"
               href="/franchise"
             >
               Franchise
