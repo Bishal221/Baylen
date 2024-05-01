@@ -1,0 +1,15 @@
+# Set the default PHP version to "ea-php81"
+<IfModule mime_module>
+  AddHandler application/x-httpd-ea-php81 .php .php8 .phtml
+</IfModule>
+
+# Custom rewrite rules for serving index.html
+ <IfModule mod_rewrite.c>
+ RewriteEngine On
+  RewriteBase /
+   RewriteRule ^index\.html$ - [L]
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+   RewriteCond %{REQUEST_FILENAME} !-l
+   RewriteRule . /index.html [L]
+</IfModule>
